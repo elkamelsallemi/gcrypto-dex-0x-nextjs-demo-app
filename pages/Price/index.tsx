@@ -123,7 +123,7 @@ export default function PriceView({
 
   return (
     <form>
-      <h1 className="text-center text-3xl font-bold mb-4">0x Swap Demo</h1>
+      <h1 className="text-center text-3xl font-bold mb-4">GCrypto Demo</h1>
 
       <p className="text-md text-center font-bold mb-2">Polygon Network</p>
 
@@ -257,7 +257,7 @@ export default function PriceView({
         <div className="text-center mt-2">Fetching the best price...</div>
       )}
 
-      <p className="text-md text-center p-4 text-gray-500">
+      {/* <p className="text-md text-center p-4 text-gray-500">
         Check out the{" "}
         <u className="underline">
           <a href="https://0x.org/docs/0x-swap-api/guides/build-token-swap-dapp-nextjs">
@@ -269,7 +269,7 @@ export default function PriceView({
           <a href="https://github.com/0xProject/0x-examples/tree/main">Code</a>
         </u>{" "}
         to build your own
-      </p>
+      </p> */}
     </form>
   );
 }

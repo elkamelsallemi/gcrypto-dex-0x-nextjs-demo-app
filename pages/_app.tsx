@@ -11,11 +11,11 @@ import { useEffect, useState } from "react";
 const config = createConfig(
   getDefaultConfig({
     // Required API Keys
-    alchemyId: "MzUaa0A87yexjd8UKcHm8HIr1f4aghxT",
-    walletConnectProjectId: "a8024e8262cb4e7102941a3577b5a5c0",
+    alchemyId: "qgDmd0DF0IWEyPbD2pKzGF6LuBp2dwfk",
+    walletConnectProjectId: "e5a8a108c99e3285e23b7c74325d1617",
 
     // Required
-    appName: "0x Next.js Demo App",
+    appName: "GCrypto Demo App",
 
     // Optional
     appDescription: "A Next.js demo app for 0x Swap API and ConnectKit",
